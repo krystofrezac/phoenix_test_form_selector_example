@@ -27,6 +27,7 @@ defmodule AppWeb.ConnCase do
       # Import conveniences for testing with connections
       import Plug.Conn
       import Phoenix.ConnTest
+      import PhoenixTest
       import AppWeb.ConnCase
     end
   end
